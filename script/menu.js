@@ -3,7 +3,7 @@ document.getElementById('Registro').onclick = function() {
 };
 
 document.getElementById('Hora').onclick = function() {
-    window.location.href = 'horas.html'; // Reemplaza con la ruta de tu página de registro de horas
+    window.location.href = 'Horas.html'; // Reemplaza con la ruta de tu página de registro de horas
 };
 
 document.getElementById('Reporte').onclick = function() {
