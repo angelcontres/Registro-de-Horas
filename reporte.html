@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Horas</title>
+    <link rel="stylesheet" href="styles/reporte.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+    <h1>Reporte de Horas de Usuarios</h1>
+
+    <!-- Input para buscar usuario -->
+    <h2>Seleccionar Usuario</h2>
+    <label for="nombreBuscar">Nombre:</label>
+    <input type="text" id="nombreBuscar" placeholder="Ingrese su nombre">
+    
+    <!-- Intervalo opcional de fechas -->
+    <h2>Filtrar Fechas</h2>
+    <label for="fechaInicio">Fecha Inicio:</label>
+    <input type="date" id="fechaInicio">
+
+    <label for="fechaFin">Fecha Fin:</label>
+    <input type="date" id="fechaFin">
+
+    <button onclick="generarReporte()">Generar Reporte</button>
+    <button onclick="exportarExcel()">Exportar a Excel</button>
+
+    <h2>Reporte Actual</h2>
+    <pre id="reporte"></pre>
+
+    <script src="script/reporte.js"></script>
+</body>
+</html>

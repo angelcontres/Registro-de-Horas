@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Horas</title>
+    <link rel="stylesheet" href="styles/horas.css">
+</head>
+<body>
+    <h1>Registro de Horas</h1>
+
+    <!-- Input para buscar usuario -->
+    <h2>Seleccionar Usuario</h2>
+    <label for="nombreBuscar">Nombre:</label>
+    <input type="text" id="nombreBuscar" placeholder="Ingrese su nombre">
+    <button onclick="buscarUsuario()">Buscar Usuario</button>
+
+    <div id="registroHoras" style="display: none;">
+        <!-- Botón para registrar hora de entrada -->
+        <h2>Registrar Hora de Entrada</h2>
+        <button onclick="registrarEntrada()">Registrar Entrada</button>
+
+        <!-- Botón para registrar hora de salida -->
+        <h2>Registrar Hora de Salida</h2>
+        <button onclick="registrarSalida()">Registrar Salida</button>
+
+        <!-- Mostrar registro actual -->
+        <h2>Registro Actual</h2>
+        <p id="registro"></p>
+    </div>
+
+    <script src="script/horas.js"></script>
+</body>
+</html>

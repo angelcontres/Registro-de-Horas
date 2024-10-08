@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluir el padding y el borde en el cálculo del ancho y alto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e6f1; /* Color de fondo */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Altura total de la vista */
+    padding: 10px; /* Espacio alrededor en dispositivos móviles */
+}
+
+.contenedor {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espaciado interno ajustado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 400px; /* Limitar el ancho máximo en pantallas grandes */
+}
+
+h1 {
+    margin-bottom: 15px; /* Espacio debajo del encabezado */
+    color: #2c3e50; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente ajustado */
+}
+
+/* Botones */
+button {
+    display: block; /* Hacer que el botón sea un bloque */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px; /* Ajustar el padding */
+    margin: 10px 0; /* Espacio vertical entre botones */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para botones */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves para hover */
+}
+
+button:hover {
+    background-color: #2980b9; /* Color de fondo en hover */
+    transform: scale(1.03); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Media Queries para dispositivos pequeños */
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 15px; /* Reducir el padding en pantallas pequeñas */
+        border-radius: 8px; /* Ajustar bordes en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 20px; /* Ajustar el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    button {
+        font-size: 14px; /* Tamaño de fuente en botones para pantallas pequeñas */
+    }
+}
+
+/* Media Queries para pantallas medianas */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 24px; /* Ajustar tamaño de fuente para pantallas medianas */
+    }
+
+    button {
+        font-size: 16px; /* Mantener tamaño de fuente estándar en pantallas medianas */
+    }
+}
+
+/* Media Queries para pantallas grandes */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 28px; /* Aumentar tamaño de fuente para pantallas grandes */
+    }
+}

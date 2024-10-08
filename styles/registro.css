@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	background-color: #d4e6f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;	
+}
+.ContainerLogin{
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 2px solid #ddd;
+}
+input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+}
+h2{
+	padding: 10px;
+	margint-top: 20px;
+	margin-left: -10px;
+}
+button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+	margin-top: 4px;
+        border-radius: 4px;
+        cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+p{
+	
+	text-align: center;
+}

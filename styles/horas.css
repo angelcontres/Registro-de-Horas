@@ -1,0 +1,68 @@
+/* Estilos generales */
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+h1 {
+	
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#registro {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover de los botones */
+button:hover {
+    background-color: blue;
+}
+
+/* Estilo para los contenedores de secciones */
+h2, button {
+    margin-bottom: 20px;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+    button {
+        width: 90%;
+    }
+}

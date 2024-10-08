@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover de los botones */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilo del pre para el texto */
+pre {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Permitir que el texto largo se ajuste */
+}
